@@ -1,0 +1,134 @@
+.corpo{
+    padding: 20px;
+}
+
+.navbar{
+    background-color: black;
+    border: outset 8px yellow;
+}
+
+.container-navbar{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-link{
+    color: white;
+    display: inline-block;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+.footer{
+    background-color: black;
+}
+
+body{
+    background-color: #212529;
+}
+
+.bg-title{
+    background-color: #212529;
+}
+
+.colore-testo{
+    color: yellow;
+}
+
+.card:hover{
+    border-color: yellow;
+    background-color: black;
+    transform: scale(1.06);
+    transition: all 0.7s;
+}
+
+.card-body{
+    color: yellow;
+    background-color: black;
+}
+
+.btn{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+    border-radius: 15px;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #212529;
+    color: black;
+}
+
+.btn-dettagli{
+    padding-top: 2px;
+    text-align: center;
+}
+
+#logo{
+    width:80px;
+}
+
+.bg-image{
+    background-image: linear-gradient(120deg, rgba(0,0,0,.6), rgba(0,0,0,1)), url(https://static.wixstatic.com/media/548a7f_af781423940d4b40b5d984ef5ac767db.jpg/v1/fill/w_980,h_871,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/548a7f_af781423940d4b40b5d984ef5ac767db.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.text-carousel{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.radius{
+    border-radius: 20px;
+    border: solid grey 0px;
+   
+    
+}
+.mappa{
+    height: 30vh;
+}
+.font-12vh{
+    font-size: 12vh;
+    
+    
+}
+h1{
+    font-size: 15px;
+    
+}
+.slogan{
+    font-size: 20px
+}
+@media screen and (max-width:900px){
+    .font-12vh{
+        font-size: 9vh;
+        
+        
+    }
+    .slogan{
+        font-size: 15px;
+    }
+    .corpo{
+        padding: 8px;
+        
+    }
+}
+.bnvtrasp{
+    background-image: url(../public/img/bnwtrasp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vh;
+height: 60vh;
+
+}
